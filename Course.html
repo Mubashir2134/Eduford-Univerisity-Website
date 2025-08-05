@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford Uk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <section class="Sub-header">
+         <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+          
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+         <h1>Our Courses</h1>
+  
+    </section>
+
+    <!---------Course------------>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Explore the intersection of technology & society.Learn about environmental justice.Take the famous problem of God ourse.
+            Our innovative<br> courses inspire and invite you to help solve some of today's most pressing local,national and global issue.
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Undergraduate <br>Programs</h3>
+              <p>For decades, Eduford College has<br> improved the health of our<br> communities, one graduate at a time.<br> The JoAnn McGrath School of<br> Nursing and Health Professions, as<br> one of the largest nursing schools in<br> Wisconsin, offers a wide array of fully <br>accredited nursing programs,<br> guaranteed clinical placements and a<br> technology-rich Center for Clinical <br>Education.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Graduate Programs</h3>
+                <p>Building on your strong roots in<br> leadership, healthcare and <br>education, Eduford is proud to Offer<br> and array of coed graduate Programs<br>
+                   for women and men who are ready to <br>advance their careers and grow as<br> leader.The Eduford College<br> community, Psychology, Master's<br>
+                program will help you to meet your<br> goals of becoming a licensed<br> professional Counselor.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>The Eduford, as one of the largest <br>nursing schools in Wisconsin, offers <br> a wide array of fully accredited <br> nursing programs, guaranteed  <br>clinical placements and a technology- <br>rich Center for Clinical Education. <br> The Eduford College Community <br> Psychology Master's program will <br> help you to meet your goals of <br> becoming a Licensed Professional  <br>Counselor.</p>
+
+            </div>
+
+        </div>
+    </section>
+    <!---------------faciliies------------->
+    
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We commit to meet the financial need of evey admited Undergraduate student. We don't consider your ability to pay when 
+            we review your application, and we don't base our desicion on weather you can cover the cost. If you are accepted here, you belon here.</p>
+<div class="row">
+     <div class="facilities-col">
+        <img src="library.png">
+        <h3>World Class library</h3>
+        <p>A library is a sanctuary of knowledge and learning, housing a diverse collection of books, periodicals, digital media, and other resources. It serves as a communal space where people of all ages can explore, study, and engage with information. Libraries offer a range of services, including research assistance, educational programs, and community events. They are pivotal in promoting literacy, encouraging lifelong learning, and providing access to information for all. With their welcoming atmosphere and wealth of resources, libraries play a crucial role in supporting education, fostering curiosity, and enriching communities.</p>
+     </div>
+     <div class="facilities-col">
+        <img src="basketball.png">
+        <h3>Largest Play Ground</h3>
+        <p>Basketball is a dynamic and fast-paced sport that combines skill, agility, and teamwork. Played on a rectangular court, the game involves two teams of five players each, aiming to score points by shooting a ball through the opponent's hoop. With its high-flying dunks, precision shooting, and strategic plays, basketball captivates fans worldwide. It promotes physical fitness, coordination, and strategic thinking. From neighborhood courts to professional arenas, basketball brings people together, fostering a sense of community and sportsmanship. The sport's rich history and global popularity make it a beloved and enduring part of the athletic world.</p>
+     </div>
+     <div class="facilities-col">
+        <img src="cafeteria.png">
+        <h3>Tasty and Healthy Food</h3>
+        <p>A cafeteria is a vibrant, communal dining space where people gather to enjoy a variety of meals and beverages. Often found in schools, workplaces, and public institutions, cafeterias offer a wide selection of food options, catering to diverse tastes and dietary needs. They provide a convenient and casual environment for eating, socializing, and taking breaks. With their self-service format, cafeterias allow for quick and efficient dining, making them a popular choice for busy individuals. The lively atmosphere, combined with the array of affordable and nutritious food, makes cafeterias an essential part of daily life for many people.</p>
+     </div>
+</div>
+
+
+    </section>
+
+   
+  
+
+  
+   
+   <! -------Footer---------->
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. We’re<br> a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.</p>
+     <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+       
+        
+     </div>
+     <p>Made with <i class="fa fa-heart-o"></i> by Qazi Mubashir</p>
+   </section>
+    <!------JavaScript for Togglr Menu-------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
